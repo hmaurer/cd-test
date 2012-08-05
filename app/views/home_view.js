@@ -6,7 +6,6 @@ module.exports = View.extend({
 	id: 'home-view',
 	template: template,
 	initialize: function() {
-		application.setTitle("Yeahhh !!")
 		this.sec = 0;
 		this.millisec = 0;
 		
